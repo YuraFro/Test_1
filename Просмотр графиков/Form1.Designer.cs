@@ -42,10 +42,6 @@
             // 
             chartArea1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             chartArea1.CursorX.Interval = 0.1D;
-            chartArea1.CursorX.IsUserEnabled = true;
-            chartArea1.CursorX.IsUserSelectionEnabled = true;
-            chartArea1.CursorY.IsUserEnabled = true;
-            chartArea1.CursorY.IsUserSelectionEnabled = true;
             chartArea1.Name = "ChartArea1";
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
@@ -57,7 +53,6 @@
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
             series1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             series1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            series1.IsValueShownAsLabel = true;
             series1.Legend = "Legend1";
             series1.MarkerBorderColor = System.Drawing.Color.Transparent;
             series1.MarkerColor = System.Drawing.Color.Transparent;
